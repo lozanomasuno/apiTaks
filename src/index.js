@@ -13,8 +13,8 @@ app.use(express.json());
 
 //routes
 app.use(require('./routes/index'));
-app.use(require('./routes/tasks'));
+app.use('/api/tasks',require('./routes/tasks'));
 
-app.listen(app.set('port', 3000), ()=>{
-    console.log(`server on port ${app.set('port')}`)
+app.listen(app.get('port'), ()=>{
+    console.log(`server on port ${app.get('port')}`)
 })
