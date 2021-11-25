@@ -5,7 +5,14 @@
         "owner": "Pepe Pepin",
         "importance": "High",
         "descriptions": "It's very hard to Understand every Job...",
-        "analist" : "Magneto"
+        "project" : "Magneto",
+        "tags": [
+            "encanto",
+            "flyup",
+            "moderna"
+        ],
+        "analist": "Ana",
+        "isComplete": true 
     },
     {
         "id" : "2",
@@ -13,7 +20,14 @@
         "owner": "Pepe Pepin",
         "importance": "Medium",
         "descriptions": "It's hard to Understand every Job...",
-        "analist" : "Magneto"
+        "project" : "Magneto",
+        "tags": [
+            "Souvenir",
+            "Dulzera",
+            "Azul"
+        ],
+        "analist": "Gustavo",
+        "isComplete": true 
     },
     {
         "id" : "3",
@@ -21,6 +35,13 @@
         "owner": "Pepina Pepelines",
         "importance": "low",
         "descriptions": "It's easy hard to Understand every Job...",
-        "analist" : "Magneto"
+        "project" : "Magneto",
+        "tags": [
+            "encanto",
+            "flyup",
+            "moderna"
+        ],
+        "analist": "Luis",
+        "isComplete": false 
     }
 ]
