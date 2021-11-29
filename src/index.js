@@ -14,6 +14,7 @@ app.use(express.json());
 //routes
 app.use(require('./routes/index'));
 app.use('/api/tasks',require('./routes/tasks'));
+app.use('/api/analist', require('./routes/analist'));
 
 app.listen(app.get('port'), ()=>{
     console.log(`server on port ${app.get('port')}`)

@@ -1,5 +1,20 @@
 [
     {
-
+        "id" : "1",
+        "name": "Ana",
+        "middleName":"Mary",
+        "role": "Admin"
+    },
+    {
+        "id" : "2",
+        "name": "Luis",
+        "middleName":"Loria",
+        "role": "SubAdmin"
+    },
+    {
+        "id" : "3",
+        "name": "Gustavo",
+        "middleName":"Soren",
+        "role": "FullOwner"
     }
 ]
