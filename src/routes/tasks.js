@@ -1,6 +1,6 @@
 const { Router } =  require('express');
 const router = Router();
-
+const _ =require('underscore');
 const tasks = require('../tasks.json');
 
 router.get('/', (req, res)=>{
@@ -18,5 +18,15 @@ router.post('/', (req, res)=>{
         res.send('wrong request');
     }
 })
+
+router.delete('/:id', (req, res)=>{
+    const { id } = req.params;
+    _.each(tasks, (task, i)=>{
+        if(task.id == id){
+            tasks.splice(i, 1);
+        }
+    })
+    res.send('deleted');
+});
 
 module.exports = router;
